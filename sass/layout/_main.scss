@@ -1,0 +1,33 @@
+@use "../base/variables" as *;
+
+body {
+    background-color: $colorEggshell;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .recipe{
+        background-color: $colorWhite;
+        width: 50vw;
+        min-width: 320px;
+        max-width: 750px;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+
+        .recipe-image{
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+}
+
+li {
+    list-style-position: inside;
+}

@@ -6,4 +6,33 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: hsl(30, 54%, 90%);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .recipe {
+  background-color: hsl(0, 0%, 100%);
+  width: 50vw;
+  min-width: 320px;
+  max-width: 750px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body .recipe .recipe-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+li {
+  list-style-position: inside;
+}
+
 /*# sourceMappingURL=main.css.map */
