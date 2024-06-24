@@ -1,0 +1,24 @@
+@use "./variables" as *;
+
+.recipe {
+    border: 1px solid black;
+    font-family: $fontFamilyOutfit;
+    font-size: $fontSizeParagraph;
+
+    .recipe-title {
+        color: $colorDarkCharcoal;
+    }
+
+    h1, h2{
+        font-family: $fontFamilyYoung;
+        font-weight: 400;
+    }
+
+    h2 {
+        color: $colorNutmeg;
+    }
+
+    h3 {
+        color: $colorDarkRaspberry;
+    }
+}

@@ -29,5 +29,26 @@ body {
 }
 
 li {
-    list-style-position: inside;
+    list-style-position:inside;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section,
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.preparation-time {
+    background-color: $colorRoseWhite;
+    padding: 15px 0 10px 25px;
+    border-radius: 10px;
 }
