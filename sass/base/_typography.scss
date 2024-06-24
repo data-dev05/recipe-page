@@ -1,9 +1,11 @@
 @use "./variables" as *;
 
 .recipe {
-    border: 1px solid black;
     font-family: $fontFamilyOutfit;
     font-size: $fontSizeParagraph;
+    font-weight: 400;
+    color: $colorWengeBrown; 
+    line-height: 1.5;
 
     .recipe-title {
         color: $colorDarkCharcoal;
@@ -20,5 +22,6 @@
 
     h3 {
         color: $colorDarkRaspberry;
+        font-weight: 700;
     }
 }
